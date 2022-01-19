@@ -1,0 +1,7 @@
+ s = str (x)
+        sb = reversed(s)
+        sx = "".join(sb)
+        if s == sx:
+            return True
+        else: 
+            return False
